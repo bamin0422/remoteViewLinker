@@ -11,6 +11,7 @@ import chromedriver_autoinstaller
 from PyQt5 import QtWidgets
 from PyQt5 import QtGui, QtCore
 
+
 def resource_path(relative_path):
      if hasattr(sys, '_MEIPASS'):
          return os.path.join(sys._MEIPASS, relative_path)
